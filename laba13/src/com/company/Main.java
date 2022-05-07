@@ -9,7 +9,7 @@ public class Main {
             int C = 0;
             String text = "";
             while((C = FR.read()) != -1){
-                text += (char)C; //общее кол-во символов
+                text += (char)C;
             }
 
             String a = text.replaceAll("\\//.+", "");
